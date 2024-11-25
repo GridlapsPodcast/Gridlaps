@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gridlaps Plataformas</title>
+      <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #a87598c1, #ff0099);
+            margin: 30px;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .profile img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .profile h1 {
+            color: white;
+            font-size: 40px;
+            margin: 10px 0;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .link:hover {
+            transform: translateY(-3px);
+            background: #f0f0f0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            transition: transform 0.2s;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+    </style>
+    <!-- Íconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <!-- Cambia la URL de la imagen por tu foto de perfil -->
+            <img src="https://cdn.static.linkr.com/thumb/500x500/cover/85/user/upload/image/b5073ce5-9de9-4032-b6d3-77716d5dc991.png?f=webp" alt="Foto de perfil">
+            <h1>Gridlaps</h1>
+        </div>
+
+        <div class="links">
+            <!-- Personaliza estos enlaces con tus propios links -->
+            <a href="https://www.youtube.com/@GridLaps" class="link">Youtube</a>
+            <a href="#" class="link">Predicciones</a>
+            <a href="https://www.instagram.com/j/AbZ2xCG2wCJF0AEU/" class="link">Race Chat</a>
+            <a href="https://open.spotify.com/show/5hF0PX0GI0qJ0yD0u0p3K2?si=0e3e309289fa4fe9" class="link">Spotify</a>
+        </div>
+
+       <div class="social-icons">
+    <!-- Solo YouTube e Instagram -->
+    <a href="https://www.youtube.com/@GridLaps"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.instagram.com/gridlaps/"><i class="fab fa-instagram"></i></a>
+    <!-- Gmail con mailto para abrir directamente la redacción del correo -->
+    <a href="mailto:gridlaps.podcast@gmail.com"><i class="fas fa-envelope"></i></a>
+</div>
+    </div>
+</body>
+</html>
+
